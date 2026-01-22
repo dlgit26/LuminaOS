@@ -1,0 +1,878 @@
+{
+  "meta": {
+    "version": "2.0",
+    "generated": "2026-01-21",
+    "source": "Traditional astrological literature (Hand, Planets in Transit, 1976)",
+    "usage": "Personal use only - MVP",
+    "notes": "Core insights are condensed summaries. Full interpretations are direct quotes with citation for personal reference. Display 'core' by default, expandable to 'fullInterpretation'."
+  },
+
+  "transitToNatal": {
+    
+    "moon": {
+      "toSun": {
+        "conjunction": {
+          "id": "moon_conjunction_sun",
+          "core": {
+            "insight": "Emotional and conscious self aligned. This is the New Moon energy applied personally — good for new beginnings that require both heart and will.",
+            "favorable": "Starting projects, making decisions that need emotional buy-in, setting intentions",
+            "caution": "Can be emotionally intense or inward-focused — take breaks if overwhelmed",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This conjunction represents a new beginning in the relationship between your conscious ego and your emotions. You are likely to feel very much at one with yourself now, centered and able to act from a position of strength. New enterprises begun now tend to have both emotional and rational support. However, this can also be a time when you are so focused inward that you lose perspective on the outside world. Use this energy for beginning new projects and making decisions that require your whole self to be committed.",
+          "source": "Hand, Planets in Transit, p.122"
+        },
+        "sextile": {
+          "id": "moon_sextile_sun",
+          "core": {
+            "insight": "Gentle harmony between feelings and identity. Easy flow for routine tasks without strong emotional charge.",
+            "favorable": "Daily tasks, casual socializing, light creative work, errands",
+            "caution": "May lack the intensity needed for breakthrough work — good for maintenance, not initiation",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This is a time of easy flow between your emotional and rational natures. You feel comfortable with yourself and at ease in your relationships. This is not a time of great intensity but rather of pleasant equilibrium. It is good for routine tasks and for dealings with others that do not require great effort. Enjoy this brief period of harmony.",
+          "source": "Hand, Planets in Transit"
+        },
+        "square": {
+          "id": "moon_square_sun",
+          "core": {
+            "insight": "Tension between what you feel and what you want. Inner conflict may surface, requiring conscious integration.",
+            "favorable": "Identifying internal conflicts, emotional processing, gaining self-awareness",
+            "caution": "Not ideal for major decisions — feelings and logic may clash. Give yourself grace.",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This transit creates tension between your emotional needs and your conscious will. You may feel pulled in different directions, with your feelings seeming to contradict what you think you want. This is a good time to examine these conflicts rather than try to make important decisions. The tension you feel now can lead to greater self-understanding if you are willing to look honestly at yourself. Avoid forcing issues; instead, use this time for self-reflection.",
+          "source": "Hand, Planets in Transit"
+        },
+        "trine": {
+          "id": "moon_trine_sun",
+          "core": {
+            "insight": "Emotional ease and confidence. What you feel aligns naturally with who you are.",
+            "favorable": "Self-expression, creative work, authentic interactions, making good impressions",
+            "caution": "Can be too comfortable — you might coast rather than push for growth",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This is a time when your emotions and your conscious will work together harmoniously. You feel confident and at ease with yourself, able to express who you are without inner conflict. This is excellent for any activity requiring you to make a good impression or express yourself authentically. Creative work flows easily. Relationships benefit from your emotional centeredness. Enjoy this brief period of inner harmony.",
+          "source": "Hand, Planets in Transit"
+        },
+        "opposition": {
+          "id": "moon_opposition_sun",
+          "core": {
+            "insight": "Full Moon energy personally applied — culmination, clarity, and emotional illumination. Feelings are fully visible.",
+            "favorable": "Completing projects, gaining perspective, relationship insights, honest conversations",
+            "caution": "Can feel emotionally exposed or reactive. Others see your feelings clearly.",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This transit brings your emotions into full consciousness, like the Full Moon illuminating the night. You may gain sudden clarity about your feelings or about situations in your life. Relationships come into focus, and you see clearly how others affect your emotional state. This can be a time of emotional fulfillment or tension, depending on what needs to be seen. Important insights are available if you are willing to look honestly at your emotional truth.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMoon": {
+        "conjunction": {
+          "id": "moon_conjunction_moon",
+          "core": {
+            "insight": "Lunar return — emotional reset. Your feeling nature is highlighted and renewed.",
+            "favorable": "Emotional check-ins, self-care rituals, intuitive decisions, setting emotional intentions",
+            "caution": "Heightened sensitivity — protect your energy and honor your needs",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This is your Lunar Return, occurring once every 27-28 days when the Moon returns to its natal position. This represents a new emotional cycle beginning. Your emotional patterns reset, and you have an opportunity to start fresh in how you handle your feelings and needs. This is an excellent time for emotional self-care and for setting intentions about how you want to feel in the coming month. Pay attention to your moods now — they set the tone for the cycle ahead.",
+          "source": "Hand, Planets in Transit"
+        },
+        "square": {
+          "id": "moon_square_moon",
+          "core": {
+            "insight": "Emotional friction with your habitual patterns. Old patterns clash with current needs.",
+            "favorable": "Identifying emotional habits that no longer serve you, breaking cycles",
+            "caution": "Irritability, emotional reactivity — pause before responding to triggers",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This transit creates tension between your current emotional state and your habitual emotional patterns. You may feel restless or irritable without knowing exactly why. This is an opportunity to notice where your automatic emotional responses no longer serve your current life. The discomfort you feel points to areas where growth is possible. Avoid taking this friction out on others.",
+          "source": "Hand, Planets in Transit"
+        },
+        "opposition": {
+          "id": "moon_opposition_moon",
+          "core": {
+            "insight": "Emotional high tide — feelings are at maximum intensity and visibility.",
+            "favorable": "Emotional honesty, relationship clarity, understanding your deeper needs",
+            "caution": "Can feel overwhelmed by feelings or by others' emotional demands",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "At this time your emotions reach a peak of intensity and awareness. You are acutely conscious of your feelings and of how your emotional nature interacts with others. Relationships may become more intense or demanding. This is a time of emotional truth — what you have been avoiding feeling may now demand attention. Use this heightened sensitivity for honest self-reflection rather than emotional drama.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMercury": {
+        "conjunction": {
+          "id": "moon_conjunction_mercury",
+          "core": {
+            "insight": "Feelings and thoughts unite. Communication is emotionally rich and intuitive.",
+            "favorable": "Heartfelt conversations, writing about feelings, decisions integrating head and heart",
+            "caution": "May rationalize emotions or emotionalize thoughts — seek balance",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This transit unites your emotional and mental natures. You can communicate your feelings clearly, and your thinking is enriched by emotional depth. This is excellent for any communication that needs to touch others emotionally, such as writing, counseling, or heartfelt conversations. Your intuition is strong, and you may receive insights that combine emotional and rational knowing. A good time to journal or process feelings through words.",
+          "source": "Hand, Planets in Transit"
+        },
+        "square": {
+          "id": "moon_square_mercury",
+          "core": {
+            "insight": "Feelings and thoughts clash. What you think contradicts what you feel.",
+            "favorable": "Noticing mind-heart disconnects, working through confusion in writing",
+            "caution": "Miscommunication, saying things you later regret, overthinking feelings",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This transit creates tension between your emotional needs and your rational mind. You may find it difficult to express your feelings clearly, or your words may not match what you actually feel. Miscommunication with others is likely. This is not the best time for important conversations or decisions. Instead, use this brief period to notice where your head and heart are out of sync — valuable information for later integration.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toVenus": {
+        "conjunction": {
+          "id": "moon_conjunction_venus",
+          "core": {
+            "insight": "Emotional warmth and desire for comfort. Love and nurturing feel intertwined.",
+            "favorable": "Quality time with loved ones, home beautification, emotional self-care, pleasure",
+            "caution": "May use comfort or indulgence to avoid difficult feelings",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This is a pleasant transit that heightens your need for comfort, beauty, and emotional connection. You feel affectionate and want to be around people you love. This is excellent for any activity involving pleasure, beauty, or relationships. Your home environment matters more than usual — you may want to beautify your space or simply enjoy being comfortable. Relationships benefit from the warmth you feel now.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMars": {
+        "conjunction": {
+          "id": "moon_conjunction_mars",
+          "core": {
+            "insight": "Emotional energy runs hot. Feelings are intense and want action.",
+            "favorable": "Physical activity, tackling emotional issues head-on, passionate projects",
+            "caution": "Irritability, emotional impulsiveness, arguments — channel energy physically",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This transit intensifies your emotional nature and creates a need for action. You may feel restless, impatient, or easily irritated. Emotional confrontations are more likely now, and you may react more strongly than usual to perceived slights. The best use of this energy is physical activity or tackling something that requires emotional courage. Avoid picking fights, but don't suppress the energy — channel it constructively.",
+          "source": "Hand, Planets in Transit"
+        },
+        "square": {
+          "id": "moon_square_mars",
+          "core": {
+            "insight": "Emotional friction creates inner tension. Feelings want to fight or flee.",
+            "favorable": "Releasing pent-up frustration through physical activity, confronting avoidance",
+            "caution": "Arguments, impulsive reactions, emotional volatility — pause before acting",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This challenging transit creates tension between your emotional needs and your drive for action. You may feel frustrated, irritable, or combative without clear cause. Domestic tension is possible. This is not an ideal time for important conversations or decisions, as you're likely to react impulsively. Physical exercise is the best outlet for this energy. If conflict arises, try to delay discussion until this brief transit passes.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toJupiter": {
+        "conjunction": {
+          "id": "moon_conjunction_jupiter",
+          "core": {
+            "insight": "Emotional generosity and optimism. Feelings are expansive and hopeful.",
+            "favorable": "Generosity, emotional openness, big-picture perspective on feelings",
+            "caution": "May be overly optimistic or emotionally excessive — maintain some groundedness",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This pleasant transit expands your emotional nature in positive ways. You feel generous, optimistic, and emotionally open. This is an excellent time for social activities, as your warmth attracts others. You may gain perspective on emotional matters that have troubled you, seeing them in a larger context. Relationships benefit from your goodwill. The only caution is a tendency toward emotional excess or promising more than you can deliver.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toSaturn": {
+        "conjunction": {
+          "id": "moon_conjunction_saturn",
+          "core": {
+            "insight": "Emotional sobriety and possible heaviness. Feelings meet reality.",
+            "favorable": "Emotional discipline, serious conversations, facing difficult feelings maturely",
+            "caution": "Can feel emotionally heavy, lonely, or pessimistic — this passes quickly",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This transit can bring a temporary emotional heaviness or sense of isolation. You may feel more aware of limitations, responsibilities, or the serious side of life. This is not a bad time — it can bring emotional maturity and the ability to deal with difficult feelings soberly. Important emotional truths may become clear. However, avoid making permanent judgments based on this brief period of emotional constraint. Take care of yourself and know this will pass.",
+          "source": "Hand, Planets in Transit"
+        },
+        "square": {
+          "id": "moon_square_saturn",
+          "core": {
+            "insight": "Emotional restriction and possible loneliness. Old fears may surface.",
+            "favorable": "Facing emotional fears, building emotional resilience, setting boundaries",
+            "caution": "Depression, self-criticism, emotional coldness — be gentle with yourself",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This challenging transit can bring feelings of emotional restriction, inadequacy, or loneliness. Old fears or patterns of emotional inhibition may surface. You may feel cut off from warmth or unable to express your feelings. This is temporary but can be uncomfortable. Avoid making important emotional decisions during this brief period. Instead, notice what fears come up — they point to areas where healing and growth are possible. Self-compassion is essential now.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toPluto": {
+        "conjunction": {
+          "id": "moon_conjunction_pluto",
+          "core": {
+            "insight": "Emotional intensity and depth. Feelings are powerful and potentially transformative.",
+            "favorable": "Emotional healing, confronting deep patterns, powerful intuition",
+            "caution": "Can feel overwhelming, obsessive, or bring up buried emotions — hold space",
+            "duration": "Few hours"
+          },
+          "fullInterpretation": "This powerful transit intensifies your emotional nature profoundly. Feelings that have been buried may surface. You may have intense emotional experiences or powerful intuitions. This can be a time of emotional transformation if you're willing to face what arises honestly. Power dynamics in relationships may become apparent. The depth available now can lead to healing, but requires courage to face your emotional truth.",
+          "source": "Hand, Planets in Transit"
+        }
+      }
+    },
+
+    "mercury": {
+      "toSun": {
+        "conjunction": {
+          "id": "mercury_conjunction_sun",
+          "core": {
+            "insight": "Mental clarity about identity and direction. Thinking about who you are and where you're going.",
+            "favorable": "Self-expression through writing or speaking, clarity about goals, important communications",
+            "caution": "May be too identified with your ideas — stay open to other perspectives",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "This transit brings your conscious mind into focus on matters of identity and self-expression. You think clearly about who you are and what you want. This is an excellent time for important communications, especially those involving your goals, identity, or creative self-expression. Writing, speaking, and learning all benefit. Your mind and will are aligned, making this a good time to express your ideas and make plans.",
+          "source": "Hand, Planets in Transit"
+        },
+        "square": {
+          "id": "mercury_square_sun",
+          "core": {
+            "insight": "Mental friction with ego or authority. Ideas meet resistance.",
+            "favorable": "Stress-testing your thinking, defending your ideas, sharpening arguments",
+            "caution": "Arguments with authority figures, ego-driven communication — choose battles wisely",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "This transit creates tension between your thinking and your sense of self or will. You may find your ideas challenged by others, especially authority figures. Alternatively, you may be overly identified with being right. This friction can sharpen your thinking if you remain open, but can also lead to unproductive arguments if you become defensive. Use this energy to strengthen your ideas, not to prove your worth.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMoon": {
+        "conjunction": {
+          "id": "mercury_conjunction_moon",
+          "core": {
+            "insight": "Mind connects with feelings. Thinking is intuitive and emotionally informed.",
+            "favorable": "Processing emotions through writing, heartfelt communications, counseling",
+            "caution": "May confuse feelings with facts — distinguish between the two",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "This transit brings your rational mind into contact with your emotional nature. Your thinking becomes more intuitive, and you can understand and communicate feelings more easily. This is excellent for any work involving emotions — counseling, writing about feelings, or having important conversations about emotional matters. Your memory may also be enhanced for emotionally significant events.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMercury": {
+        "conjunction": {
+          "id": "mercury_conjunction_mercury",
+          "core": {
+            "insight": "Mercury return — mental reset. Your thinking style is refreshed and highlighted.",
+            "favorable": "Learning, writing, updating mental models, communication projects",
+            "caution": "Information overload risk — focus on priorities, don't scatter",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "This is your Mercury Return, occurring roughly once a year when transiting Mercury returns to its natal position. This represents a new cycle in your mental life — your thinking, communication, and learning processes reset. This is an excellent time to begin mental projects, take up new studies, or initiate important communications. Pay attention to what you're thinking about now; it sets the tone for your mental focus in the coming year.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toVenus": {
+        "conjunction": {
+          "id": "mercury_conjunction_venus",
+          "core": {
+            "insight": "Graceful, pleasant communication. Thoughts turn to beauty, love, and harmony.",
+            "favorable": "Diplomatic conversations, creative writing, aesthetic decisions, love letters",
+            "caution": "May be superficially pleasant rather than honestly direct — know when depth is needed",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "This pleasant transit brings grace and charm to your communications. You express yourself pleasantly and diplomatically, and your mind is drawn to beautiful things. This is excellent for any communication involving art, aesthetics, or relationships. Writing flows easily and attractively. Negotiations benefit from your diplomatic approach. The only caution is a tendency to avoid unpleasant truths in favor of keeping things nice.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMars": {
+        "conjunction": {
+          "id": "mercury_conjunction_mars",
+          "core": {
+            "insight": "Sharp, assertive thinking. Mental energy is high, direct, and potentially combative.",
+            "favorable": "Debates, decisive communication, tackling mental challenges, competitive thinking",
+            "caution": "Can be cutting or argumentative — temper directness with awareness of impact",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "This transit energizes your mind and sharpens your communication. You think quickly and express yourself forcefully. This is excellent for debates, competitive mental activities, or any situation requiring mental courage and directness. However, your words can cut, and you may be more argumentative than usual. Use this energy for constructive confrontation when needed, but be aware that others may experience you as aggressive.",
+          "source": "Hand, Planets in Transit"
+        },
+        "square": {
+          "id": "mercury_square_mars",
+          "core": {
+            "insight": "Mental friction and impatience. Thoughts race, tongue sharpens, patience thins.",
+            "favorable": "Cutting through obstacles, direct problem-solving, releasing mental frustration",
+            "caution": "Arguments, hasty words you'll regret, mental burnout — slow down",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "This challenging transit creates mental tension and a tendency toward sharp, impatient communication. Your thoughts may race, and you may speak before thinking. Arguments are likely if you're not careful. This energy is best used for tackling mental obstacles or problems that require aggressive problem-solving. Avoid important negotiations or sensitive conversations. If you must communicate about difficult topics, make extra effort to slow down and choose words carefully.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toJupiter": {
+        "conjunction": {
+          "id": "mercury_conjunction_jupiter",
+          "core": {
+            "insight": "Expansive, optimistic thinking. Big ideas and broad perspectives come easily.",
+            "favorable": "Strategic planning, learning, teaching, optimistic communication, publishing",
+            "caution": "May overlook details, over-promise, or be intellectually arrogant — stay grounded",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "This excellent transit expands your mental horizons. You think in broad terms and see the big picture easily. This is ideal for strategic planning, learning, teaching, or any mental activity requiring vision and optimism. Your communication is persuasive and confident. The caution is a tendency to overlook details, make promises you can't keep, or become intellectually arrogant. Balance vision with attention to practical realities.",
+          "source": "Hand, Planets in Transit"
+        },
+        "sextile": {
+          "id": "mercury_sextile_jupiter",
+          "core": {
+            "insight": "Easy flow between detail and big picture. Thinking is balanced and optimistic.",
+            "favorable": "Learning, planning, teaching, productive meetings, positive communication",
+            "caution": "May coast on this ease rather than pushing for depth — use it actively",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "This harmonious transit creates an easy flow between detailed thinking and broad perspective. You can see both the forest and the trees. This is excellent for learning, planning, teaching, or any mental work requiring balanced thinking. Communications tend to go well, and you project optimism. Make active use of this favorable period for important mental work.",
+          "source": "Hand, Planets in Transit"
+        },
+        "trine": {
+          "id": "mercury_trine_jupiter",
+          "core": {
+            "insight": "Harmonious big-picture thinking. Optimism and clarity combine naturally.",
+            "favorable": "Learning, teaching, planning, presentations, positive communications",
+            "caution": "Can be overconfident — verify assumptions even when things feel easy",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "This very favorable transit brings ease to all mental activities, especially those requiring both detail and vision. You think clearly and optimistically, and your communication is effective. This is excellent for presentations, learning, teaching, or planning. Things come easily, which is the only caution — don't become so confident that you skip necessary verification. Make the most of this brief window of mental grace.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toSaturn": {
+        "conjunction": {
+          "id": "mercury_conjunction_saturn",
+          "core": {
+            "insight": "Serious, structured thinking. Mental discipline is strong but thinking can feel heavy.",
+            "favorable": "Detailed planning, frameworks, difficult conversations, study requiring precision",
+            "caution": "Negative thinking, mental heaviness, seeing only problems — balance with breaks",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "During this period you are likely to proceed with considerable caution in everything you do. Your thinking is much more careful than usual, less inclined to frivolity and more inclined to be serious. You are much more conscious than usual of the distinctions between things, making it hard to see the 'forest for the trees.'\n\nOn the positive side, this transit can give you great intellectual precision. If you have to do any work that requires extreme precision of thought and planning, now is the time. Your critical faculty is extremely sharp, and you will be able to see flaws that you might overlook at other times.\n\nThe only real problem with this transit is a tendency to be depressed or to think negatively. You may dwell on the worst possible outcomes rather than approach life optimistically. But if you can avoid this tendency, you will find this transit quite useful for serious mental work.",
+          "source": "Hand, Planets in Transit, p.180"
+        },
+        "sextile": {
+          "id": "mercury_sextile_saturn",
+          "core": {
+            "insight": "Practical mental focus. Thinking is grounded, organized, and realistic.",
+            "favorable": "Administrative tasks, planning, structured learning, practical decisions",
+            "caution": "May be too rigid or conservative in thinking — allow some flexibility",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "This transit brings a practical, organized quality to your thinking. You can focus on details and handle administrative or planning tasks with ease. Your thinking is realistic and grounded, making this good for practical decisions. The discipline you bring to mental work now can produce lasting results. Just be sure not to become so rigid that you miss creative possibilities.",
+          "source": "Hand, Planets in Transit"
+        },
+        "square": {
+          "id": "mercury_square_saturn",
+          "core": {
+            "insight": "Mental obstacles and pessimism. Thinking meets resistance and may turn negative.",
+            "favorable": "Finding flaws in plans, stress-testing ideas, confronting hard truths",
+            "caution": "Negative self-talk, communication blocks, excessive criticism — be patient",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "This challenging transit creates obstacles to clear thinking and communication. Your mind may feel heavy, and you tend to see problems more easily than solutions. Communication may be blocked or delayed. This is actually a useful time for finding flaws in plans or stress-testing ideas, as your critical faculty is sharp. However, avoid making final judgments now — your perspective is likely too negative. Also watch for negative self-talk and be patient with communication difficulties.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toPluto": {
+        "conjunction": {
+          "id": "mercury_conjunction_pluto",
+          "core": {
+            "insight": "Deep, penetrating thought. Mind goes beneath surface to hidden truths.",
+            "favorable": "Research, investigation, transformative conversations, psychological insight",
+            "caution": "Obsessive thinking, suspicion, manipulative communication — maintain perspective",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "This powerful transit gives your mind penetrating depth. You can see beneath the surface of situations and understand hidden dynamics. This is excellent for research, investigation, psychological work, or any thinking requiring depth. Conversations can be transformative. The caution is a tendency toward obsessive thinking or suspicion. Your perception of hidden motives may be accurate, but don't let this become paranoia. Use this depth for insight, not manipulation.",
+          "source": "Hand, Planets in Transit"
+        },
+        "sextile": {
+          "id": "mercury_sextile_pluto",
+          "core": {
+            "insight": "Insightful thinking with depth. Can perceive hidden patterns with relative ease.",
+            "favorable": "Research, strategic thinking, meaningful conversations, transformation through understanding",
+            "caution": "May use insight manipulatively — stay ethical",
+            "duration": "1-2 days"
+          },
+          "fullInterpretation": "This favorable transit gives your thinking depth and insight without overwhelming intensity. You can perceive hidden patterns and understand complex situations. This is excellent for research, strategic thinking, or conversations about deep subjects. Your words carry weight and can influence others significantly. Use this power ethically.",
+          "source": "Hand, Planets in Transit"
+        }
+      }
+    },
+
+    "venus": {
+      "toSun": {
+        "conjunction": {
+          "id": "venus_conjunction_sun",
+          "core": {
+            "insight": "Charm and creativity highlighted. Identity expressed through beauty and connection.",
+            "favorable": "Social events, creative work, self-care, negotiations, making good impressions",
+            "caution": "May avoid conflict to maintain pleasantness — some things still need addressing",
+            "duration": "2-3 days"
+          },
+          "fullInterpretation": "This pleasant transit highlights your social graces and creative abilities. You feel attractive and charming, and others respond positively to you. This is excellent for social events, creative work, negotiations, or any situation where making a good impression matters. You want harmony and beauty in your environment. The only caution is a tendency to avoid necessary confrontations in favor of keeping things pleasant.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMoon": {
+        "conjunction": {
+          "id": "venus_conjunction_moon",
+          "core": {
+            "insight": "Emotional warmth and desire for comfort. Nurturing feels loving; love feels nurturing.",
+            "favorable": "Home beautification, family time, emotional self-care, pleasure with loved ones",
+            "caution": "May use comfort to avoid difficult feelings — balance pleasure with necessary processing",
+            "duration": "2-3 days"
+          },
+          "fullInterpretation": "This lovely transit creates a desire for emotional comfort and pleasurable connection. Your home environment matters to you, and you may want to beautify your space or enjoy comfortable domestic time. Relationships with family and loved ones benefit from the warmth you feel. This is a good time for emotional self-care and gentle pleasures. Just don't use comfort as an escape from feelings that need processing.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMercury": {
+        "conjunction": {
+          "id": "venus_conjunction_mercury",
+          "core": {
+            "insight": "Pleasant, graceful communication. Words flow with charm and aesthetic sense.",
+            "favorable": "Writing, diplomacy, aesthetic discussions, compliments, love letters, negotiations",
+            "caution": "May be superficially pleasant versus genuinely honest — know when depth is needed",
+            "duration": "2-3 days"
+          },
+          "fullInterpretation": "This pleasant transit brings grace and charm to all your communications. You express yourself pleasantly and can find the right words for delicate situations. This is excellent for writing, diplomacy, negotiations, or any communication about art, beauty, or relationships. Your words please others. The caution is a tendency to prioritize pleasantness over honesty when something more direct is needed.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toVenus": {
+        "conjunction": {
+          "id": "venus_conjunction_venus",
+          "core": {
+            "insight": "Venus return — values and relationships reset. What you love is highlighted and renewed.",
+            "favorable": "Relationship check-ins, artistic endeavors, pleasure, updating your values",
+            "caution": "May overindulge — balance pleasure with purpose",
+            "duration": "2-3 days"
+          },
+          "fullInterpretation": "This is your Venus Return, occurring once a year when transiting Venus returns to its natal position. This represents a new cycle in your relationship life and in your values. It's an excellent time to assess your relationships and what you truly value. Artistic and creative activities are favored. Pleasure comes easily. Use this time to reconnect with what you love and to set intentions for relationships and creative life in the coming year.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMars": {
+        "conjunction": {
+          "id": "venus_conjunction_mars",
+          "core": {
+            "insight": "Passion and desire activated. Love meets action; attraction is magnetic.",
+            "favorable": "Romance, creative passion projects, asserting desires, bold aesthetic choices",
+            "caution": "Impulsive in love or money — pause before big moves you can't reverse",
+            "duration": "2-3 days"
+          },
+          "fullInterpretation": "This transit unites Venus (love, beauty, values) with Mars (action, desire, assertion). The result is heightened passion and the energy to go after what you want. This is excellent for romance, creative projects requiring passion, or asserting your values. Your attractive power is strong. The caution is impulsiveness — you may act on attraction or desire without thinking things through. Enjoy the passion but don't make irreversible moves hastily.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toJupiter": {
+        "conjunction": {
+          "id": "venus_conjunction_jupiter",
+          "core": {
+            "insight": "Abundance and joy in relationships. Generosity flows easily; love expands.",
+            "favorable": "Celebrations, generosity, optimistic connections, receiving help, large purchases",
+            "caution": "May overspend or over-commit socially — maintain some boundaries",
+            "duration": "2-3 days"
+          },
+          "fullInterpretation": "This very pleasant transit brings expansion and abundance to relationships and pleasures. You feel generous and receive generosity in return. Social life expands. This is excellent for celebrations, meeting new people, or enjoying abundance in any form. You may receive gifts, help, or opportunities through relationships. The caution is a tendency toward excess — overspending, overindulgence, or over-committing socially. Enjoy the abundance but keep some practical sense.",
+          "source": "Hand, Planets in Transit"
+        },
+        "trine": {
+          "id": "venus_trine_jupiter",
+          "core": {
+            "insight": "Grace and luck in relationships and finances. Easy flow of abundance.",
+            "favorable": "Social occasions, financial opportunities, creative expansion, receiving",
+            "caution": "Can coast on ease — make active use of this favorable time",
+            "duration": "2-3 days"
+          },
+          "fullInterpretation": "This very favorable transit brings grace and ease to relationships, finances, and pleasures. Things flow well, people are helpful, and opportunities for enjoyment abound. This is excellent for social occasions, financial decisions, or creative expansion. The energy is so pleasant that the main caution is taking it for granted. Make active use of this brief period of Venus-Jupiter harmony to advance things you care about.",
+          "source": "Hand, Planets in Transit"
+        },
+        "opposition": {
+          "id": "venus_opposition_jupiter",
+          "core": {
+            "insight": "Tension between pleasure and expansion. What you want to enjoy may conflict with bigger growth.",
+            "favorable": "Understanding the balance between comfort and growth, generous connections",
+            "caution": "Over-expansion, overspending, promises you can't keep — find the middle ground",
+            "duration": "2-3 days"
+          },
+          "fullInterpretation": "This transit creates a productive tension between what you want to enjoy now (Venus) and your need for growth and expansion (Jupiter). You may feel pulled between settling into comfort and reaching for more. Relationships may bring abundance but also a sense of too much — too many demands, too much generosity to reciprocate. The key is finding balance. Don't let the desire for pleasure stop your growth, but don't sacrifice all pleasure for ambition either. This tension can help you find the right relationship between enjoying life and expanding your horizons.",
+          "source": "Hand, Planets in Transit"
+        },
+        "square": {
+          "id": "venus_square_jupiter",
+          "core": {
+            "insight": "Excess in pleasure and relationships. Desire for more clashes with values.",
+            "favorable": "Understanding where you've overextended, honest relationship assessment",
+            "caution": "Overspending, over-promising, relationship inflation — exercise restraint",
+            "duration": "2-3 days"
+          },
+          "fullInterpretation": "This transit can bring excess to relationships, pleasures, and finances. You want more than is practical or sustainable. This can manifest as overspending, overindulgence, or taking on more social obligations than you can handle. The tension is between wanting abundance and maintaining realistic limits. Use this time to notice where you tend toward excess. Exercise restraint, but don't punish yourself — just be realistic about what you can actually sustain.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toSaturn": {
+        "conjunction": {
+          "id": "venus_conjunction_saturn",
+          "core": {
+            "insight": "Serious look at relationships and values. Love meets reality; duty meets pleasure.",
+            "favorable": "Commitment conversations, realistic relationship assessment, mature love decisions",
+            "caution": "May feel lonely, unlovable, or like relationships are only duty — this heaviness passes",
+            "duration": "2-3 days"
+          },
+          "fullInterpretation": "This transit brings a serious, realistic quality to relationships and values. You see your relationships clearly, including their limitations and responsibilities. This can be a time of important commitments if your relationships are solid, or a time of recognizing where they fall short. You may feel lonely or unappreciated. The key is to see this as a reality check, not a permanent state. Use this time for mature assessment of what you truly value and what commitments you want to make.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toPluto": {
+        "conjunction": {
+          "id": "venus_conjunction_pluto",
+          "core": {
+            "insight": "Deep, intense experiences in love and values. Transformation through relationship.",
+            "favorable": "Transformative intimacy, releasing old patterns, powerful creative work",
+            "caution": "Obsession, jealousy, power struggles in relationships — maintain perspective",
+            "duration": "2-3 days"
+          },
+          "fullInterpretation": "This powerful transit intensifies relationships and brings deep transformation to what you value. Intimacy can be profoundly connecting or uncomfortably intense. Hidden dynamics in relationships may surface. This can be a time of transformative love or of releasing relationships that no longer serve you. Creative work has depth and power. The caution is obsession, jealousy, or power struggles. Use this intense energy for genuine transformation rather than manipulation.",
+          "source": "Hand, Planets in Transit"
+        }
+      }
+    },
+
+    "mars": {
+      "toSun": {
+        "conjunction": {
+          "id": "mars_conjunction_sun",
+          "core": {
+            "insight": "Physical energy and drive peak. Will and action unite; you want to DO something.",
+            "favorable": "Physical activity, starting projects, competition, asserting yourself",
+            "caution": "Can be aggressive or reckless — channel energy constructively, avoid conflicts",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This transit energizes your entire being. You feel vigorous, assertive, and ready to act. This is excellent for physical activity, starting new projects, or any situation requiring energy and courage. You project confidence and others notice your vitality. The caution is a tendency toward aggression or recklessness — you may start conflicts or take unnecessary risks. Channel this powerful energy into constructive action.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMoon": {
+        "conjunction": {
+          "id": "mars_conjunction_moon",
+          "core": {
+            "insight": "Emotional energy runs hot. Feelings want action; emotions are intense.",
+            "favorable": "Addressing emotional issues directly, protective action, physical release of emotions",
+            "caution": "Emotional volatility, arguments at home, impulsive reactions — channel physically",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This transit intensifies your emotional nature and creates a need for action around feelings. You may feel protective, defensive, or emotionally volatile. Domestic tensions are possible. This energy is best used for addressing emotional issues directly or for physical activity that releases emotional energy. Avoid unnecessary conflicts, especially at home. Your reactions are stronger than usual — pause before responding to emotional triggers.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMercury": {
+        "conjunction": {
+          "id": "mars_conjunction_mercury",
+          "core": {
+            "insight": "Mental energy and assertiveness peak. Thinking is sharp, quick, and potentially aggressive.",
+            "favorable": "Debates, decisive communication, mental challenges, direct conversations",
+            "caution": "Sharp tongue, arguments, mental impatience — think before speaking",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This transit energizes your mind and sharpens your communication. You think quickly and express yourself forcefully. This is excellent for debates, challenging mental work, or any situation requiring mental assertiveness. However, your words can cut, and you may be more argumentative than usual. Important conversations may become heated. Think before you speak, especially when dealing with sensitive topics or relationships that matter.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toVenus": {
+        "conjunction": {
+          "id": "mars_conjunction_venus",
+          "core": {
+            "insight": "Passion and desire unite. Love is active; attraction is strong.",
+            "favorable": "Romance, passionate creative work, pursuing what you want, bold aesthetic choices",
+            "caution": "Impulsiveness in love or money, aggressive pursuit that overwhelms — moderate intensity",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This transit unites Mars (action, desire) with Venus (love, beauty). The result is heightened passion and the drive to pursue what attracts you. This is excellent for romance, passionate creative projects, or going after something you want. Your attractive power is strong. The caution is coming on too strong — your intensity may overwhelm rather than attract. Also watch for impulsive spending or romantic decisions.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMars": {
+        "conjunction": {
+          "id": "mars_conjunction_mars",
+          "core": {
+            "insight": "Mars return — action and energy cycle renews. A new 2-year cycle of initiative begins.",
+            "favorable": "Starting important projects, physical challenges, asserting new directions",
+            "caution": "Can be accident-prone or aggressive — channel energy carefully",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This is your Mars Return, occurring approximately every two years when transiting Mars returns to its natal position. This represents a new cycle of action and initiative. What you start now sets the tone for how you assert yourself and pursue goals for the next two years. This is excellent for beginning important projects or taking on physical challenges. The energy is high but needs direction — without constructive focus, it can manifest as accidents or aggression.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toJupiter": {
+        "conjunction": {
+          "id": "mars_conjunction_jupiter",
+          "core": {
+            "insight": "High energy and confidence. Actions taken now succeed from sheer conviction. 'Fortunate action.'",
+            "favorable": "Launching enterprises, bold moves, physical challenges, expansion, taking risks",
+            "caution": "Overconfidence, taking on too much, reckless risks — know your actual limits",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This is an excellent transit for almost any kind of physical activity. Your energy is high, and you feel very strong and vigorous. It is an excellent time for any work that requires self-assertion and confidence. You are able to meet other people's resistance with easy self-assurance rather than belligerence, and you inspire confidence in others. The only problem to watch out for is that your feelings of exuberance may lead you to take unnecessary risks or to think that you are invincible.\n\nThis is basically a 'lucky' transit, or so it seems. Actually it is not so much luck as the fact that you have such total confidence now that your activities are much more likely to succeed. Mars-Jupiter has the general connotation of 'fortunate action' and is favorable for launching any new enterprise. You have enough physical energy for several people and can handle a great deal of hard work.",
+          "source": "Hand, Planets in Transit, p.352"
+        },
+        "trine": {
+          "id": "mars_trine_jupiter",
+          "core": {
+            "insight": "Fortunate action with ease. Energy, luck, and timing align for successful initiatives.",
+            "favorable": "Starting projects, athletics, risk-taking with good odds, travel",
+            "caution": "May coast on luck versus putting in full effort — don't waste the opportunity",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This very favorable transit brings together action and opportunity harmoniously. You feel confident and capable, and circumstances tend to support your initiatives. This is excellent for starting projects, physical activity, travel, or taking calculated risks. Fortune favors bold action now. The only caution is that things come so easily you might not give your full effort. Make the most of this brief window of Mars-Jupiter harmony.",
+          "source": "Hand, Planets in Transit"
+        },
+        "square": {
+          "id": "mars_square_jupiter",
+          "core": {
+            "insight": "Overreach and excess energy. Drive exceeds judgment; confidence exceeds ability.",
+            "favorable": "Ambitious projects if you check assumptions first, working off excess energy",
+            "caution": "Promising too much, reckless action, legal or ethical risks — reality-check plans",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This transit creates an excess of energy and confidence that may exceed your actual capacity or judgment. You want to do big things, which is good, but may take on more than you can handle or make promises you can't keep. There can be legal or ethical risks if you cut corners in your enthusiasm. The energy is real and can fuel genuine achievements if you stay realistic about what's actually possible. Check your assumptions before committing to major action.",
+          "source": "Hand, Planets in Transit"
+        },
+        "sextile": {
+          "id": "mars_sextile_jupiter",
+          "core": {
+            "insight": "Productive energy and optimism. Action and opportunity support each other.",
+            "favorable": "Starting projects, productive meetings, physical activity, travel",
+            "caution": "Relatively minor — just don't take this ease for granted",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This favorable transit creates an easy flow between action and opportunity. You have energy for your goals, and circumstances tend to support your efforts. This is good for starting projects, productive meetings, or any activity requiring both energy and judgment. Your physical vitality is good. Make active use of this brief period of harmony between Mars and Jupiter.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toSaturn": {
+        "conjunction": {
+          "id": "mars_conjunction_saturn",
+          "core": {
+            "insight": "Disciplined action or frustrated energy. Drive meets limits and requires patience.",
+            "favorable": "Hard work requiring endurance, difficult physical tasks, structured action",
+            "caution": "Frustration, blocked energy, injury risk from forcing things — pace yourself",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This transit creates a challenging combination of drive and restriction. You want to act, but circumstances or responsibilities may limit you. This can manifest as frustration, blocked energy, or forced discipline. The key is patience and steady effort rather than forcing things. This is actually good for hard work that requires endurance — you can accomplish difficult tasks if you don't fight the need for patience. Watch for accidents from frustration or forcing.",
+          "source": "Hand, Planets in Transit"
+        },
+        "sextile": {
+          "id": "mars_sextile_saturn",
+          "core": {
+            "insight": "Disciplined, effective action. Energy is measured and productive.",
+            "favorable": "Hard work, physical discipline, strategic action, long-term projects",
+            "caution": "May hold back too much — find balance between caution and action",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This favorable transit brings together action and discipline constructively. You can work hard and effectively, pacing your energy for maximum results. This is excellent for any project requiring sustained effort, strategic action, or physical discipline. Your actions are measured and considered. The only caution is being too cautious — don't let discipline become inhibition.",
+          "source": "Hand, Planets in Transit"
+        },
+        "square": {
+          "id": "mars_square_saturn",
+          "core": {
+            "insight": "Energy blocked by obstacles. Will meets resistance; frustration with limits.",
+            "favorable": "Persistence through difficulty, building resilience, facing hard truths",
+            "caution": "Anger at restrictions, accidents from frustration, chronic frustration — patience essential",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This challenging transit creates conflict between your drive to act and forces that restrict you. You may feel blocked, frustrated, or limited in your ability to move forward. This can manifest as anger at authority, accidents from forcing things, or a sense of grinding effort with little result. The key is patience and persistence. Sometimes limits are real and must be worked within. Focus on what you can do rather than raging against what you can't.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toPluto": {
+        "conjunction": {
+          "id": "mars_conjunction_pluto",
+          "core": {
+            "insight": "Intense drive and willpower. Power is available for transformation or destruction.",
+            "favorable": "Transformative action, releasing old patterns, powerful physical effort",
+            "caution": "Power struggles, ruthlessness, destructive impulses — use power wisely",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This powerful transit intensifies your drive and willpower enormously. You have access to deep reserves of energy and determination. This can fuel transformative action and the ability to overcome major obstacles. However, this same power can become destructive if not used wisely. Power struggles are likely if you try to dominate others. The key is using this intense energy for genuine transformation rather than control or destruction.",
+          "source": "Hand, Planets in Transit"
+        },
+        "trine": {
+          "id": "mars_trine_pluto",
+          "core": {
+            "insight": "Effective, empowered action. Personal power flows constructively toward goals.",
+            "favorable": "Major accomplishments, powerful leadership, transformation, physical challenges",
+            "caution": "Power is easier to access — ensure your goals are worthy of it",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This very powerful transit gives you access to deep reserves of energy and personal power in a constructive way. You can accomplish major things through focused, determined action. This is excellent for leadership, challenging projects, physical transformation, or any goal requiring sustained power. Your intensity is magnetic. Ensure you're using this power for genuinely worthy goals.",
+          "source": "Hand, Planets in Transit"
+        },
+        "square": {
+          "id": "mars_square_pluto",
+          "core": {
+            "insight": "Power struggles and intense conflict. Will meets resistance at the deepest level.",
+            "favorable": "Confronting deep patterns, releasing stuck energy, transformation through crisis",
+            "caution": "Ruthlessness, dangerous conflicts, destructive impulses — exercise great caution",
+            "duration": "3-4 days"
+          },
+          "fullInterpretation": "This challenging transit can bring intense power struggles and conflict. Your will meets deep resistance, either from external forces or from your own unconscious patterns. The energy is volcanic and potentially destructive. This can be a time of necessary confrontation with issues you've avoided, but requires great caution. Avoid unnecessary power struggles. Use this intensity for genuine transformation rather than destruction.",
+          "source": "Hand, Planets in Transit"
+        }
+      }
+    },
+
+    "jupiter": {
+      "toSun": {
+        "conjunction": {
+          "id": "jupiter_conjunction_sun",
+          "core": {
+            "insight": "Expansion of identity and purpose. You feel larger, more optimistic, more capable.",
+            "favorable": "New ventures, leadership, recognition, expanding your role and influence",
+            "caution": "Overconfidence, arrogance, taking on too much — stay grounded",
+            "duration": "2-3 weeks"
+          },
+          "fullInterpretation": "This excellent transit expands your sense of self and purpose. You feel more confident, optimistic, and capable than usual. This is one of the best times for starting new ventures, seeking recognition, or expanding your role in any area of life. Others respond to your confidence and may offer opportunities. The caution is overdoing it — arrogance, taking on more than you can handle, or promising too much. Stay grounded while enjoying this expansive period.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMoon": {
+        "conjunction": {
+          "id": "jupiter_conjunction_moon",
+          "core": {
+            "insight": "Emotional expansion and generosity. Feelings are optimistic; nurturing is abundant.",
+            "favorable": "Family growth, emotional healing, home improvement, receiving emotional support",
+            "caution": "Emotional excess, overeating, overprotectiveness — maintain some balance",
+            "duration": "2-3 weeks"
+          },
+          "fullInterpretation": "This pleasant transit expands your emotional life in positive ways. You feel emotionally generous and receive emotional support in return. This is excellent for family matters, home improvement, emotional healing, or any situation benefiting from emotional abundance. You may want to nurture others or improve your domestic situation. The caution is emotional excess — overeating, overprotectiveness, or emotional indulgence. Enjoy the warmth while keeping some practical sense.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toVenus": {
+        "conjunction": {
+          "id": "jupiter_conjunction_venus",
+          "core": {
+            "insight": "Abundant love and pleasure. Relationships expand; beauty and joy increase.",
+            "favorable": "Romance, celebrations, art, financial growth, receiving generosity",
+            "caution": "Overindulgence, overspending, excessive social commitments — know your limits",
+            "duration": "2-3 weeks"
+          },
+          "fullInterpretation": "This very pleasant transit brings abundance to relationships, pleasures, and finances. You feel loving and receive love in return. Social life flourishes. This is excellent for romance, celebrations, artistic pursuits, or financial growth. You may receive gifts, help, or opportunities through relationships. The caution is excess — overspending, overindulgence, or taking on too many social commitments. Enjoy the abundance while keeping some practical boundaries.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMars": {
+        "conjunction": {
+          "id": "jupiter_conjunction_mars",
+          "core": {
+            "insight": "Expansive energy and 'fortunate action.' Confidence is high; initiatives are favored.",
+            "favorable": "Bold initiatives, physical challenges, competition, starting enterprises",
+            "caution": "Overconfidence, recklessness, excessive risk — channel energy wisely",
+            "duration": "2-3 weeks"
+          },
+          "fullInterpretation": "This is an excellent transit for almost any kind of physical activity. Your energy is high, and you feel very strong and vigorous. It is an excellent time for any work that requires self-assertion and confidence. You are able to meet other people's resistance with easy self-assurance rather than belligerence, and you inspire confidence in others. The only problem to watch out for is that your feelings of exuberance may lead you to take unnecessary risks or to think that you are invincible.\n\nThis is basically a 'lucky' transit, or so it seems. Actually it is not so much luck as the fact that you have such total confidence now that your activities are much more likely to succeed. Mars-Jupiter has the general connotation of 'fortunate action' and is favorable for launching any new enterprise.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toJupiter": {
+        "conjunction": {
+          "id": "jupiter_conjunction_jupiter",
+          "core": {
+            "insight": "Jupiter return — 12-year cycle of growth and expansion renews. What you expand now shapes years ahead.",
+            "favorable": "Major new directions, higher education, travel, publishing, spiritual growth",
+            "caution": "Over-expansion, unrealistic optimism — plant seeds you can actually tend",
+            "duration": "Several weeks"
+          },
+          "fullInterpretation": "This is your Jupiter Return, occurring approximately every 12 years when transiting Jupiter returns to its natal position. This represents a new cycle of growth, expansion, and opportunity. What you begin now in terms of personal growth, education, travel, or life direction sets the tone for the next 12 years. This is an excellent time for starting new educational pursuits, expanding your horizons, or planting seeds for future growth. The caution is over-expansion — plant seeds you can actually nurture to maturity.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toSaturn": {
+        "conjunction": {
+          "id": "jupiter_conjunction_saturn",
+          "core": {
+            "insight": "Expansion meets structure. Growth requires discipline; ambition needs realistic foundations.",
+            "favorable": "Building lasting structures, realistic planning for growth, mature expansion",
+            "caution": "Tension between wanting more and accepting limits — find productive balance",
+            "duration": "Several weeks"
+          },
+          "fullInterpretation": "This significant transit brings together the principles of expansion (Jupiter) and limitation (Saturn). You want to grow but must work within real constraints. This tension can be very productive — it helps you build lasting structures rather than castles in the air. Ambitions take realistic form. Plans for growth become practical. The key is finding the balance between reaching for more and accepting necessary limits.",
+          "source": "Hand, Planets in Transit"
+        }
+      }
+    },
+
+    "saturn": {
+      "toSun": {
+        "conjunction": {
+          "id": "saturn_conjunction_sun",
+          "core": {
+            "insight": "Reality check for identity. Who you are meets who you must become. Maturation pressure.",
+            "favorable": "Taking on mature responsibilities, long-term planning, realistic self-assessment",
+            "caution": "Can feel heavy, limiting, or depressing — this is temporary and building something",
+            "duration": "Several weeks"
+          },
+          "fullInterpretation": "This important transit brings a reality check to your sense of self and purpose. You see yourself and your life clearly, including limitations you may have avoided. This can feel heavy or limiting, but serves an important purpose — you are being asked to mature and take on real responsibilities. What you build now in terms of identity, career, or life structure can last. The key is accepting the discipline this period requires rather than fighting it or becoming depressed.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMoon": {
+        "conjunction": {
+          "id": "saturn_conjunction_moon",
+          "core": {
+            "insight": "Emotional reality check. Feelings meet limits; emotional maturation is required.",
+            "favorable": "Setting emotional boundaries, maturing in relationships, facing feelings honestly",
+            "caution": "Can feel emotionally heavy, lonely, or restricted — this is building emotional strength",
+            "duration": "Several weeks"
+          },
+          "fullInterpretation": "This transit brings a serious, realistic quality to your emotional life. You may feel lonely, restricted, or emotionally heavy. This serves a purpose — you are being asked to mature emotionally, set boundaries, and face your feelings honestly. Relationships that are solid become stronger; those that aren't may feel their limitations keenly. The key is doing the emotional work this period requires rather than sinking into depression. You are building emotional strength.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toSaturn": {
+        "conjunction": {
+          "id": "saturn_conjunction_saturn",
+          "core": {
+            "insight": "Saturn return — major life restructuring every 29 years. The structures of your life are tested and renewed.",
+            "favorable": "Major life decisions, taking on adult responsibilities, building lasting structures",
+            "caution": "Can feel like crisis if you've avoided necessary growth — embrace the restructuring",
+            "duration": "Several months"
+          },
+          "fullInterpretation": "This is your Saturn Return, occurring approximately every 29 years. The first Saturn Return (age 28-30) marks the transition to full adulthood. The second (age 57-59) marks the transition to elderhood. This is a time of major life restructuring. The structures you've built are tested — what's solid remains; what's not may fall away. This can feel like crisis if you've avoided necessary growth, but embracing it leads to a more authentic life. Make decisions now that align with who you truly are and what you truly want to build.",
+          "source": "Hand, Planets in Transit"
+        }
+      }
+    },
+
+    "pluto": {
+      "toSun": {
+        "conjunction": {
+          "id": "pluto_conjunction_sun",
+          "core": {
+            "insight": "Deep transformation of identity. Who you were must die for who you're becoming to emerge.",
+            "favorable": "Profound personal transformation, releasing old identity, empowerment",
+            "caution": "Can feel like ego death, intense power dynamics — surrender to transformation",
+            "duration": "1-2 years"
+          },
+          "fullInterpretation": "This profound transit transforms your very sense of self at the deepest level. The person you were must, in some ways, die for the person you're becoming to emerge. This can manifest as intense life changes, power struggles, or the need to release old identities that no longer serve you. The process can feel like ego death, which is uncomfortable but ultimately liberating. The key is surrendering to the transformation rather than fighting it. You are being empowered through the release of what no longer serves you.",
+          "source": "Hand, Planets in Transit"
+        }
+      },
+      "toMoon": {
+        "conjunction": {
+          "id": "pluto_conjunction_moon",
+          "core": {
+            "insight": "Deep emotional transformation. Feelings are intensified and purified through crisis.",
+            "favorable": "Emotional healing at the deepest level, releasing old patterns, empowerment",
+            "caution": "Can bring up buried emotions, obsession, emotional crisis — hold space for the process",
+            "duration": "1-2 years"
+          },
+          "fullInterpretation": "This profound transit transforms your emotional nature at the deepest level. Old emotional patterns, possibly from childhood, surface to be healed and released. This can be an intense period, bringing up buried emotions, creating emotional crises, or intensifying feelings dramatically. Family dynamics may undergo transformation. The key is allowing the process rather than fighting it. You are being emotionally purified and empowered, though the journey may be challenging.",
+          "source": "Hand, Planets in Transit"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Lumina",
+  "short_name": "Lumina",
+  "description": "ADHD-friendly task management with astrology",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f9fc",
+  "theme_color": "#b8a9c9",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "192x192", "type": "image/svg+xml" },
+    { "src": "/icon.svg", "sizes": "512x512", "type": "image/svg+xml" }
+  ]
+}

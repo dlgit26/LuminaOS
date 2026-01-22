@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-app: #f8f9fc;
+  --bg-surface: #ffffff;
+  --bg-surface-alt: #f3f4f8;
+  --text-primary: #3f3654;
+  --text-secondary: #7c7489;
+  --accent-primary: #b8a9c9;
+  --accent-success: #a7d4c4;
+  --accent-warmth: #d4a5a5;
+  --accent-deep: #4a4063;
+}
+
+.dark {
+  --bg-app: #1a1825;
+  --bg-surface: #2a2638;
+  --bg-surface-alt: #221f2e;
+  --text-primary: #e9e4f0;
+  --text-secondary: #9890a8;
+  --accent-primary: #c4b5e0;
+  --accent-success: #a7d4c4;
+  --accent-warmth: #d4a5a5;
+  --accent-deep: #c9bbd9;
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  padding-bottom: env(safe-area-inset-bottom);
+  overscroll-behavior: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button, input, textarea {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes celebrate {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+@keyframes bounce-in {
+  0% { transform: scale(0.8); opacity: 0; }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 10px rgba(147, 51, 234, 0.3); }
+  50% { box-shadow: 0 0 20px rgba(147, 51, 234, 0.6); }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+
+.animate-celebrate {
+  animation: celebrate 0.4s ease-out;
+}
+
+.animate-bounce-in {
+  animation: bounce-in 0.5s ease-out;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}

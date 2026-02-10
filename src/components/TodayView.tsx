@@ -174,8 +174,6 @@ export function TodayView({ userId }: TodayViewProps) {
           onToggle={handleGentleModeToggle}
         />
 
-        <CosmicWeather userId={userId} />
-
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-4">
           <div className="flex items-center gap-2 mb-3">
             <span className="text-sm font-medium text-gray-700">Filter by area:</span>
@@ -232,6 +230,8 @@ export function TodayView({ userId }: TodayViewProps) {
           isGentleMode={isGentleMode}
           onToggle={toggleTask}
         />
+
+        <CosmicWeather userId={userId} />
       </div>
 
       <button
